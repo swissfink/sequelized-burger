@@ -14,6 +14,14 @@ if (process.env.JAWSDB_URL) {
   });
 };
 
+// connection = mysql.createConnection({
+//     host: "127.0.0.1",
+//     port: 3306,
+//     user: "root",
+//     password: "pUr5HLeFkp5E3Yk",
+//     database: "seq_burgers_db"
+// });
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {

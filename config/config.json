@@ -1,22 +1,22 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
+    "password": "pUr5HLeFkp5E3Yk",
+    "database": "seq_burger_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "pUr5HLeFkp5E3Yk",
+    "database": "seq_burger_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "pUr5HLeFkp5E3Yk",
+    "database": "seq_burger_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }

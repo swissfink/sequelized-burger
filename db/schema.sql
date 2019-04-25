@@ -1,9 +1,6 @@
 ### Schema
 
-DROP DATABASE IF EXISTS seq_burgers_db;
-
-CREATE DATABASE seq_burgers_db;
-USE seq_burgers_db;
+USE ajsaa6ha5jqxmh74;
 
 CREATE TABLE seq_burgers
 (

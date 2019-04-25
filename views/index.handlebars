@@ -1,0 +1,96 @@
+
+
+
+<div class="container"> 
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">I WANT DA YUMMY BURGERZ!</h1>
+    </div>
+  </div>
+
+  <div class="card-deck">
+
+    <div class="card">
+      <div class="card-body">
+        <img src="../assets/img/cheeseburger.png" alt="cheeseburger illustration" height="300" width="auto"
+          id="cheeseburger-image">
+      </div>
+    </div>
+  
+    <div class="card" id="not-devoured">
+      <div class="card-body">
+        <h5 class="card-title"> <i class="far fa-times-circle"></i> BURGERZ NOT DEVOURED!</h5>
+        <hr>
+        <ul>
+          {{#each burgers}}
+            {{#unless devoured}}
+              {{> burgers/burger-block devoured=true}}
+            {{/unless}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card" id="devoured">
+      <div class="card-body">
+        <h5 class="card-title"><i class="far fa-check-circle"></i> BURGERZ DEVOURED!</h5>
+        <hr>
+        <ul>
+          {{#each burgers}}
+            {{#if devoured}}
+             {{> burgers/burger-block devoured=false}}
+            {{/if}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>  
+
+  </div> 
+ 
+  <div class="card-deck" id="form-row">
+
+    <div class="card col-8" id="add-burger">
+      <div class="card-body">
+        <h4 class="card-title">ADD A DELICIOUS BURGER TO THE LIST</h4>
+
+        <hr>
+
+        <form class="create-form">
+
+          <div class="form-group">
+            <label for="ca">BURGER NAME:</label>
+            <input type="text" id="ca" name="name">
+          </div>
+
+          <div class="form-group">
+            <label for="devoured">DEVOURED?</label><br>
+            <input type="radio" name="devoured" value="1" checked> &nbsp;<i class="far fa-check-circle"></i> DEVOURED <br>
+            <input type="radio" name="devoured" value="0"> &nbsp;<i class="far fa-times-circle"></i> NOT DEVOURED YET </i>
+          </div>
+
+          <button type="submit" id="add-burger-button">ADD DA BURGER!</button>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="card col-4" id="cat-card">
+      <div class="card-body">
+        <img src="https://aht.seriouseats.com/images/2011/08/20110824-pusheen-burger.gif" alt="cat on burger illustration" height="182" width="auto"
+          id="cat-image">
+      </div>
+    </div>
+      
+  
+ 
+  </div>
+
+  <footer>
+    &copy; copyright 2019 <a href="https://swissfink.github.io/" target="_blank" class="footer-text">Richard Fink</a>. All rights reserved. <a href="https://github.com/swissfink/burger" target="_blank">See the project repo <i class="fas fa-external-link-alt">.</i></a> <br> Vector Cheeseburger From <a target="_blank" href="https://www.vecteezy.com/vector-art/403183-big-hamburger-icon-graphic-illustration">www.Vecteezy.com</a> | Cat GIF From <a target="_blank" href="https://www.pinterest.com/pin/80431543314573749/?lp=true">Pinterest</a>
+  </footer>
+
+</div>
+
+

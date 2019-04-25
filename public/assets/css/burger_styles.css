@@ -1,0 +1,106 @@
+.jumbotron {
+  margin-top: 15px;
+  text-align: center;
+  background: #faa419;
+  border-radius: 10px;
+  color: #fff;
+}
+
+body {
+  background: #b25c26;
+}
+h4{
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: #fff;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  color: #fff;
+}
+
+.label {
+  font-weight: bold;
+}
+
+
+a:not([href]):not([tabindex]){
+  color: fff;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.change-devoured {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#cheeseburger-image {
+  text-align: center;
+}
+
+#form-row {
+  margin-top: 25px;
+}
+
+#not-devoured {
+  background: #dc2b29;
+}
+
+#devoured {
+  background: #326e35;
+}
+
+#add-burger {
+  background: #fcbf11;
+}
+
+.form-group {
+  padding-left: 65px;
+}
+
+#add-burger-button {
+  margin-left: 65px;
+  width: 150px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#ca {
+  width: 350px;
+}
+
+#cat-card {
+  background: #fef2e6;
+}
+
+#cat-image {
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 65px;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 25px;
+}

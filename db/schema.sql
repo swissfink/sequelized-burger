@@ -1,11 +1,11 @@
 ### Schema
 
-DROP DATABASE IF EXISTS burgers_db;
+DROP DATABASE IF EXISTS seq_burgers_db;
 
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE seq_burgers_db;
+USE seq_burgers_db;
 
-CREATE TABLE burgers
+CREATE TABLE seq_burgers
 (
 	id INT AUTO_INCREMENT NOT NULL ,
 	burger_name VARCHAR(255) NOT NULL,
@@ -13,4 +13,4 @@ CREATE TABLE burgers
 	PRIMARY KEY (id)
 );
 
-SELECT * From burgers
+SELECT * From seq_burgers
